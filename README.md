@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/model-s.avif" alt="preview">
+  <img src="public/preview.png" alt="preview">
 </p>
 
 # TESLA - LANDING
