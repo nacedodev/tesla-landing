@@ -10,15 +10,15 @@ const textColor = `text-${color}`;
 >
   <div class="z-30 relative h-full flex flex-col">
     <header>
-      <h2 class={`${textColor} pt-40 text-[40px] font-medium`}>
+      <h2 class={`${textColor} pt-40 text-[40px] font-medium animate-fadeup`}>
         {title}
       </h2>
-      <p class={`${textColor} text-sm`}>
+      <p class={`${textColor} text-sm animate-fadeup`} style="animation-delay: 150ms">
         {subtitle}
       </p>
     </header>
 
-    <footer class="flex flex-col flex-grow justify-end pb-20">
+    <footer class="flex flex-col flex-grow justify-end pb-20 animate-fadeup" style="animation-delay: 300ms">
       <slot name="footer" />
     </footer>
   </div>
